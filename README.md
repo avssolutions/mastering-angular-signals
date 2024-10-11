@@ -1,6 +1,6 @@
 # Mastering Angular Signals
 
-MasteringAngularSignals is an example project that showcases the usage of Angular Signals, with a focus on demonstrating basic and advanced techniques for handling signals within Angular applications. The project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 17.3.10.
+Mastering Angular Signals is an example project that showcases the usage of Angular Signals, with a focus on demonstrating basic and advanced techniques for handling signals within Angular applications. The project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 17.3.10.
 
 This project was created by [AVS Solutions](https://avssolutions.rs/).
 
