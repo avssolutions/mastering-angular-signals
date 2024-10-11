@@ -1,0 +1,25 @@
+<section class="py-5" id="features">
+  <div class="container px-5 my-5">
+    <div class="row gx-5">
+      <div class="col">
+        <h2>Computed Signals and Effects</h2>
+
+        <!-- <p *ngIf="count">Count: {{ count }}</p>
+        <p>Double Count: {{ doubleCount }}</p>
+        <p>{{ message }}</p>
+        <p><span>Should open:</span> {{ shouldOpen}}</p> -->
+
+        <p *ngIf="count">Count: {{ count() }}</p>
+        <p>Double Count (Computed): {{ doubleCount() }}</p>
+        <p>{{ message() }}</p>
+        <p><span>Should open:</span> {{ shouldOpen()}} </p>
+
+        <!-- Issue: forgetting to use () with signals -->
+        <!-- <p>{{ message }}</p> --> <!-- This would cause a compile error -->
+
+        <button class="btn btn-primary btn-md px-4 me-sm-3" (click)="increment()">Increment Count</button>
+        <button class="btn btn-secondary btn-md px-4 me-sm-3" (click)="changeMessage()">Change Message</button>
+      </div>
+    </div>
+  </div>
+</section>

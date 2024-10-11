@@ -1,0 +1,17 @@
+<section class="py-5" id="features">
+  <div class="container px-5 my-5">
+    <div class="row gx-5">
+      <div class="col">
+        <div class="parent-component">
+          <h2>Parent component</h2>
+          <h2><span>Value of Person age: </span>{{person().age}}</h2>
+          <div class="child-component">
+            <app-child [person]="person()"></app-child>
+            <!-- <app-child [person]="person()" (personChanged)="onPersonChanged($event)"></app-child> -->
+            <!-- <app-child *ngIf="person()"></app-child> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

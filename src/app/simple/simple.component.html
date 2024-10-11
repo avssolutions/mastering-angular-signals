@@ -1,0 +1,20 @@
+<section class="py-5" id="features">
+  <div class="container px-5 my-5">
+    <div class="row gx-5">
+      <div class="col">
+        <h2>Simple switch to signals</h2>
+
+
+        <p>{{ message }}</p>
+        <p>Count: {{ count }}</p>
+
+
+        <!-- <p>{{ message() }}</p>
+        <p>Count: {{ count() }}</p> -->
+
+        <button class="btn btn-primary btn-md px-4 me-sm-3" (click)="increment()">Increment Count</button>
+        <button class="btn btn-secondary btn-md px-4 me-sm-3" (click)="changeMessage()">Change Message</button>
+      </div>
+    </div>
+  </div>
+</section>
